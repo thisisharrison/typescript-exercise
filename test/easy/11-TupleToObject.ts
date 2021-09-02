@@ -1,17 +1,10 @@
-import type { TupleToObject } from "../../src/easy/11-TupleToObject";
+import type { TupleToObject } from "easy/11-TupleToObject";
 import { Equal, Expect } from "@type-challenges/utils";
 
 it("TupleToObjects", () => {
   const tuple = ["tesla", "model 3", "model X", "model Y"] as const;
 
-  type cases = [
-    Expect<
-      Equal<
-        TupleToObject<typeof tuple>,
-        { tesla: "tesla"; "model 3": "model 3"; "model X": "model X"; "model Y": "model Y" }
-      >
-    >
-  ];
+  type cases = [Expect<Equal<TupleToObject<typeof tuple>, { tesla: "tesla"; "model 3": "model 3"; "model X": "model X"; "model Y": "model Y" }>>];
 
   // @ts-expect-error
   type error = TupleToObject<[[1, 2], {}]>;

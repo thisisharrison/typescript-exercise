@@ -1,4 +1,4 @@
-import type { First } from "../../src/easy/14-First";
+import type { First } from "easy/14-First";
 import { Equal, Expect } from "@type-challenges/utils";
 
 it("First", () => {

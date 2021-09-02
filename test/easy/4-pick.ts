@@ -1,4 +1,4 @@
-import type { MyPick } from "../../src/easy/4-pick";
+import type { MyPick } from "easy/4-pick";
 import { Equal, Expect } from "@type-challenges/utils";
 
 it("Pick", () => {

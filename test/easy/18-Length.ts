@@ -1,4 +1,4 @@
-import type { Length } from "../../src/easy/18-Length";
+import type { Length } from "easy/18-Length";
 import { Equal, Expect } from "@type-challenges/utils";
 
 it("Length", () => {

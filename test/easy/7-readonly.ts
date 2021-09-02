@@ -1,4 +1,4 @@
-import type { MyReadonly } from "../../src/easy/7-readonly";
+import type { MyReadonly } from "easy/7-readonly";
 import { Equal, Expect } from "@type-challenges/utils";
 
 it("MyReadonly", () => {
