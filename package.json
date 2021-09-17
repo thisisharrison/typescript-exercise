@@ -18,6 +18,7 @@
     "@babel/register": "^7.15.3",
     "@iamyth/logger": "1.0.4",
     "@iamyth/prettier-config": "0.0.1",
+    "@shad02w/cmz": "^1.0.7",
     "@types/mocha": "^9.0.0",
     "@types/node": "16.7.6",
     "babel-plugin-module-resolver": "^4.1.0",
